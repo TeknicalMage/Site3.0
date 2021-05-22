@@ -1,6 +1,9 @@
 import { Link } from 'react-router-dom';
 import './App.css';
 
+import projects from "./Pages/Project"
+import videos from "./Pages/Video"
+
 function Nav() {
   return (
     <nav>
