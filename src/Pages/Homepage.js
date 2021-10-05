@@ -1,27 +1,22 @@
-import { Link } from 'react-router-dom';
-import './App.css';
-
-import projects from "./Pages/Project"
-import videos from "./Pages/Video"
-
 import logo from './logo.svg';
+import mylogo from './68020_Teknical Mage_Logo_RD_02.png';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        <img src={mylogo} className="My-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p> 
+          Can't you tell? This is the homepage
+        </p>
         <a
           className="App-link"
           href="https://reactjs.org"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          Test1234567
         </a>
       </header>
     </div>

@@ -2,9 +2,15 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import Main from './Main';
+import Nav from './Nav';
 import reportWebVitals from './reportWebVitals';
+import Homeinfo from './Pages/Homepage'; 
 
 ReactDOM.render(
+
+  //<Nav />, document.getElementById('root')
+
+  
   <Main />, document.getElementById('root')
 );
 

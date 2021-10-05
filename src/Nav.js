@@ -3,6 +3,9 @@ import './App.css';
 
 import projects from "./Pages/Project"
 import videos from "./Pages/Video"
+import Homeinfo from './Pages/Homepage';
+import Contact from './Pages/Contact';
+import jank from "./Pages/Jank"
 
 function Nav() {
   return (
@@ -14,12 +17,21 @@ function Nav() {
         <Link to='/videos' className="grid-item"  style={{ textDecoration: 'none' }}>
         <li className="big-glow">Videos</li>
         </Link>
+        <Link to='/jank' className="grid-item"  style={{ textDecoration: 'none' }}>
+        <li className="big-glow">Jank</li>
+        </Link>
+        <Link to='/Contact' className="grid-item"  style={{ textDecoration: 'none' }}>
+        <li className="big-glow">Contact</li>
+        </Link>
+        <Link to='/Homepage' className="grid-item"  style={{ textDecoration: 'none' }}>
+        <li className="big-glow">Home</li>
+        </Link>
       </ul>
     </nav>
 
-
-
   )
 }
+
+
 
 export default Nav;
