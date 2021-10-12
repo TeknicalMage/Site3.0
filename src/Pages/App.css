@@ -7,15 +7,29 @@
   top: 298px;
   right: 75px;
   transition: .4s ease-in;
+  opacity: 1;
 }
 
 .The-logo:hover {
   position: relative;
-  border-color: black;
-  border-width: 20px;
-  border-style:solid;
-  border-spacing: 10ch;
+  opacity: 0;
 }
+
+
+
+
+.pain {
+  color: brown;
+  position: relative;
+  top: 600px;
+  opacity: 0;
+  
+
+}
+
+
+
+
 
 
 

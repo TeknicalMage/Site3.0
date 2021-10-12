@@ -1,5 +1,5 @@
 import logo from './logo.svg';
-import mylogo from './68020_Teknical Mage_Logo_RD_02.png';
+import mylogo from './Pics/TeknicalMage_OnHover_Logo.png';
 import './App.css';
 
 function App() {
