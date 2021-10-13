@@ -71,6 +71,30 @@
 
 }
 
+.gpu_layer{
+  width: 521px;
+
+  /*OG size 1000px by 1000px*/
+  /*-*/
+  transition: 1.1s ease-in-out;
+  
+  position: relative;
+
+  top:-855px;
+  right: 100px
+  
+}
+
+.gpu_layer:hover{
+
+  /*OG size 1000px by 1000px*/
+  /*-*/
+  transition: .4s ease-in;
+  filter: grayscale(100%) brightness(40%) sepia(100%) hue-rotate(-50deg) saturate(600%) contrast(0.8);
+ 
+
+}
+
 .text {
   color: aliceblue;
   position: relative;
@@ -90,12 +114,13 @@
   z-index: 1;
 }
 
-.ram_text {
-  color: rgb(153, 183, 209);
+.gpu_text {
+  color: aliceblue;
   position: relative;
-  top: -100px;
-  z-index: 1;
+  top: -1000px;
+  left: 600px;
 }
+
 
 
 .top_image{
