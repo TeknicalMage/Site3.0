@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/static/css/main.fd8b764f.chunk.css",
+    "main.js": "/static/js/main.9ba64897.chunk.js",
+    "main.js.map": "/static/js/main.9ba64897.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.9536e3b1.js",
+    "runtime-main.js.map": "/static/js/runtime-main.9536e3b1.js.map",
+    "static/js/2.fdecd44c.chunk.js": "/static/js/2.fdecd44c.chunk.js",
+    "static/js/2.fdecd44c.chunk.js.map": "/static/js/2.fdecd44c.chunk.js.map",
+    "static/js/3.7d4ccca2.chunk.js": "/static/js/3.7d4ccca2.chunk.js",
+    "static/js/3.7d4ccca2.chunk.js.map": "/static/js/3.7d4ccca2.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.fd8b764f.chunk.css.map": "/static/css/main.fd8b764f.chunk.css.map",
+    "static/js/2.fdecd44c.chunk.js.LICENSE.txt": "/static/js/2.fdecd44c.chunk.js.LICENSE.txt",
+    "static/media/CPU_Desktop_JJ.603b2302.svg": "/static/media/CPU_Desktop_JJ.603b2302.svg",
+    "static/media/Fanpart.077ae62f.png": "/static/media/Fanpart.077ae62f.png",
+    "static/media/Fanwhole.679208f4.png": "/static/media/Fanwhole.679208f4.png",
+    "static/media/GPU_Desktop_JJ.7f0b34e1.svg": "/static/media/GPU_Desktop_JJ.7f0b34e1.svg",
+    "static/media/Ram-of-sorts.7451516f.png": "/static/media/Ram-of-sorts.7451516f.png",
+    "static/media/SSD_Desktop_JJ.3e2660a7.svg": "/static/media/SSD_Desktop_JJ.3e2660a7.svg",
+    "static/media/TeknicalMage_OnHover_Logo.1e7979fa.png": "/static/media/TeknicalMage_OnHover_Logo.1e7979fa.png",
+    "static/media/Whole_Desktop_JJ.78bda244.svg": "/static/media/Whole_Desktop_JJ.78bda244.svg",
+    "static/media/logo.6ce24c58.svg": "/static/media/logo.6ce24c58.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.9536e3b1.js",
+    "static/js/2.fdecd44c.chunk.js",
+    "static/css/main.fd8b764f.chunk.css",
+    "static/js/main.9ba64897.chunk.js"
+  ]
+}

@@ -100,6 +100,7 @@
   position: relative;
   top: -800px;
   left: 600px;
+  transition: 1 ease-in-out;
 }
 
 .text:hover {
@@ -107,12 +108,6 @@
 }
 
 
-.ssd_text {
-  color: rgb(153, 183, 209);
-  position: relative;
-  top: -25px;
-  z-index: 1;
-}
 
 .gpu_text {
   color: aliceblue;
@@ -122,10 +117,17 @@
 }
 
 
+.gpu_text:hover {
+  display: none;
+}
+
+
+
+
+
 
 .top_image{
   position: fixed;
-
 
 
 }
