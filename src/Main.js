@@ -5,20 +5,13 @@
   import { BrowserRouter as Router, Switch, Route, NavLink, Link } from "react-router-dom";
 
 
-  import Apt from "./App"; 
+  
   import { render } from '@testing-library/react';
   import React from 'react';
   import ReactDom from 'react-dom'
 
-
-  //Transition stuff
-
-
-  import PageTransition from 'react-router-page-transition';
-
-
-  //Transition stuff
-
+  import { initializeApp } from "firebase/app";
+  import { getAnalytics } from "firebase/analytics";
 
 
   import projects from "./Pages/Project"
@@ -27,6 +20,21 @@
   import Contact from './Pages/Contact';
   import jank from "./Pages/Jank"
 
+  const firebaseConfig = {
+    apiKey: "AIzaSyB89k20LvWqTgmzjb6iJbV0ggN_tbiE4h0",
+    authDomain: "site2-0.firebaseapp.com",
+    projectId: "site2-0",
+    storageBucket: "site2-0.appspot.com",
+    messagingSenderId: "506496275301",
+    appId: "1:506496275301:web:6e65bda5dcdace3da9878c",
+    measurementId: "G-JD6SG9KYX3"
+  };
+
+  const app = initializeApp(firebaseConfig);
+  const analytics = getAnalytics(app);
+
+
+
 
   
 
@@ -34,7 +42,12 @@
 
 
 
+
+
   class App extends React.Component{
+
+    
+
     
     render() {
       return(
@@ -46,7 +59,7 @@
           </Nav>
       
             
-          <PageTransition timeout={500}>
+     
           <Switch location={this.props.location}>
               <Route path ="/videos" component ={videos}/>
               <Route path ="/projects" component ={projects}/>
@@ -55,7 +68,7 @@
               <Route path ="/homepage" component ={Home}/>
               <Route path ="/" component ={Home}/>
             </Switch>
-          </PageTransition>
+
             
       
           </Router>
