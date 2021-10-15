@@ -9,13 +9,13 @@ function App() {
         <p className = "p-custom">
           Hey, My name is Julian and I am kinda sorta a software dev. 
           <br></br>
-          Currenly I work in IT fulltime, but on the side I like to think of myself as a freelance software devloper or programmer.
+          Currently I work in IT fulltime, but on the side I like to think of myself as a freelance software developer or programmer.
           <br></br>
-          My currently favorite Languages to work in include python and c++, but I'd addtionally consider myself compentent in java and go.
+          My currently favorite Languages to work in include python and c++, but I'd addtionally consider myself competent in java and go.
           <br></br>
-          Around late 2019 - early 2020 I started taking on random jobs online, which mostly included programming bots for social media services like twitter and instagram
+          Around late 2019 - early 2020 I started taking on random jobs online, which mostly included programming bots for social media services like twitter and Instagram
           <br></br>
-          Since then, that has balloned into a small side buisness and I'm looking to better organize and expand that.
+          Since then, that has ballooned into a small side business and I'm looking to better organize and expand that.
           <br></br>
 
         </p>
@@ -30,9 +30,10 @@ function App() {
             Overcomplicated Automation - Develop competency in c++ through the process of some fun projects-------------------------------
           </li>
           <li>
-            Content Creation/Capitalization - Make explanatory or demenstation videos on open projects or products I sell ---------------------
+            Content Creation/Capitalization - Make explanatory or demonstration videos on open projects or products I sell ---------------------
           </li>
         </p>
+
 
 
         <a

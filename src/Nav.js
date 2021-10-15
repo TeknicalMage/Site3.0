@@ -11,6 +11,9 @@ function Nav() {
   return (
     <nav>
       <ul className = "grid-container">
+        <Link to='/Homepage' className="grid-item"  style={{ textDecoration: 'none' }}>
+          <li className="big-glow">Home</li>
+        </Link>
         <Link to='/projects' className="grid-item" style={{ textDecoration: 'none' }}>
           <li className="big-glow">Projects</li>
         </Link>
@@ -22,9 +25,6 @@ function Nav() {
         </Link>
         <Link to='/Contact' className="grid-item"  style={{ textDecoration: 'none' }}>
         <li className="big-glow">Contact</li>
-        </Link>
-        <Link to='/Homepage' className="grid-item"  style={{ textDecoration: 'none' }}>
-        <li className="big-glow">Home</li>
         </Link>
       </ul>
     </nav>
