@@ -1,3 +1,4 @@
-Check it out at teknicalmage.com
+WORKS CURRENTLY!!!!!!!!!!!!!!!
 
-WIP currently
+Check it out at 
+https://teknicalmage.com/
