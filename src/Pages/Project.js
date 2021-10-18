@@ -1,15 +1,30 @@
+import React, { Component } from "react";
+import * as ReactDOM from "react-dom";
+
 import logo from './logo.svg';
 import './App.css';
+import './Project.css'
 
-function App() {
+/*Project Pics*/
+import Site2Cover from "./Project-Pics/Site2.PNG";
+/*Project Pics*/
+
+class Item extends Component {
+  shouldComponentUpdate() {
+    return false;
+  }
+  render() {
+
+    console.log("Hardware Page");
   return (
+   
     <div className="App">
       <header className="App-header">
         
         <p className = "p-custom">
           Hey, My name is Julian and I am kinda sorta a software dev. 
           <br></br>
-          Currently I work in IT fulltime, but on the side I like to think of myself as a freelance software developer or programmer.
+          Currently I work in IT fulltime, but on the side I like to think of myself as a freelance software developer/programmer.
           <br></br>
           My currently favorite Languages to work in include python and c++, but I'd addtionally consider myself competent in java and go.
           <br></br>
@@ -34,19 +49,29 @@ function App() {
           </li>
         </p>
 
+        <ul className = 'linefx'>
+        <div className = 'proj-grid-container'>
+        <li>
+        <img className = 'proj-grid-item' src = "https://pm-site-assets-py4.s3.us-east-2.amazonaws.com/products/legacy/black_70_sq1_250.jpg"/>
+        </li>
+        <img className = 'proj-grid-item' src = {Site2Cover}/>
+        </div>
+        </ul>
+        
+        <ul className = 'linefx'>
+        <div className = 'proj-grid-container'>
+        <li>
+        <img className = 'proj-grid-item' src = "https://pm-site-assets-py4.s3.us-east-2.amazonaws.com/products/legacy/black_70_sq1_250.jpg"/>
+        </li>
+        <img className = 'proj-grid-item' src = "https://pm-site-assets-py4.s3.us-east-2.amazonaws.com/products/legacy/black_70_sq1_250.jpg"/>
+        </div>
+        </ul>
 
-
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
       </header>
     </div>
   );
 }
 
-export default App;
+}
+
+export default Item;

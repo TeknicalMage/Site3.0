@@ -5,6 +5,7 @@ import './App.css';
 function App() {
   return (
     <div className="App">
+      <script src="https://platform.linkedin.com/badges/js/profile.js" async defer type="text/javascript"></script>
       <header className="App-header">
         <img src={mylogo} className="My-logo" alt="logo" />
         <p>
@@ -14,7 +15,6 @@ function App() {
         <a
           className="App-link"
           href="https://www.linkedin.com/in/julian-jordan-2804a0b9/"
-          target="_blank"
           rel="noopener noreferrer"
         >
           Linkedln
@@ -23,7 +23,6 @@ function App() {
         <a
           className="App-link"
           href="https://www.youtube.com/channel/UCJX45kFidKwVbLgH25H_USw"
-          target="_blank"
           rel="noopener noreferrer"
         >
           YouTube
@@ -32,13 +31,22 @@ function App() {
         <a
           className="App-link"
           href="https://www.fiverr.com/julian_jordan?up_rollout=true"
-          target="_blank"
           rel="noopener noreferrer"
         >
           Fiver
         </a>
+    
+        
+
+
+
       </header>
     </div>
+
+    
+
+    
+
   );
 }
 
