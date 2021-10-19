@@ -89,14 +89,16 @@
 }
 
 .big-glow {
-  font-size: 50px;
+  font-size: 45px;
   color: rgb(255, 255, 255);
-  transition: 1.0s ease-in-out;
-  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+  transition: 1.0s ease-in-out; 
+  font-family: monospace, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
+  padding:0px 0px 0px 0px;
 }
 
 .big-glow:hover {
-  font-size: 70px;
+  font-size: 60px;
+  padding: 0px 0px 0px -5px;
   color: #ff0000;
   text-shadow:1px 1px 2px #ff00008e, 1px 1px 2px #ff00008e;
   -webkit-animation: glow 1s ease-in-out infinite alternate;
@@ -118,7 +120,7 @@
   flex: 1;
   background-color: rgb(0, 0, 0);
   border: 5px solid rgb(0, 0, 0);
-  padding: 10px;
+  padding: 21px;
   font-size: 30px;
   text-align: center; 
   color: rgb(0, 0, 0);
@@ -156,79 +158,4 @@
     transform: rotate(360deg);
   }
 }
-
-.transition-wrapper {
-  position: relative;
-  z-index: 1;
-}
-
-.transition-wrapper .transition-item {
-  position: fixed;
-  top: 0;
-  right: 0;
-  left: 0;
-}
-
-.detail-page {
-  overflow: auto;
-  box-sizing: border-box;
-  padding: 20px;
-  height: 100vh;
-  /* background-color: #03a9f4; */
-  transition: transform 0.5s, opacity 0.5s;
-}
-
-.detail-page.transition-appear {
-  opacity: 0;
-  transform: translate3d(100%, 0, 0);
-}
-
-.detail-page.transition-appear.transition-appear-active {
-  opacity: 1;
-  transform: translate3d(0, 0, 0);
-}
-
-.detail-page.transition-leave {
-  opacity: 1;
-  transform: translate3d(0, 0, 0);
-}
-
-.detail-page.transition-leave.transition-leave-active {
-  opacity: 0;
-  transform: translate3d(100%, 0, 0);
-}
-
-.list-page {
-  overflow: auto;
-  box-sizing: border-box;
-  padding: 20px;
-  height: 100vh;
-  background-color: #fff;
-  transition: transform 0.5s, opacity 0.5s;
-  transform: translate3d(0, 0, 0);
-}
-
-.list-page.transition-appear {
-  opacity: 0;
-  transform: translate3d(-100%, 0, 0);
-}
-
-.list-page.transition-appear.transition-appear-active {
-  opacity: 1;
-  transform: translate3d(0, 0, 0);
-}
-
-.list-page.transition-leave {
-  opacity: 1;
-  transform: translate3d(0, 0, 0);
-}
-
-.list-page.transition-leave.transition-leave-active {
-  opacity: 0;
-  transform: translate3d(-100%, 0, 0);
-}
-
-
-
-/*Below is pic code*/
 

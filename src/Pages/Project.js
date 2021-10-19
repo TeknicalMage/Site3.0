@@ -20,41 +20,30 @@ class Item extends Component {
    
     <div className="App">
       <header className="App-header">
-        
+      
         <p className = "p-custom">
-          Hey, My name is Julian and I am kinda sorta a software dev. 
-          <br></br>
-          Currently I work in IT fulltime, but on the side I like to think of myself as a freelance software developer/programmer.
+          Hey, My name is Julian and I setup this website to display the different things I've devloped outside of my fulltime IT Job.
           <br></br>
           My currently favorite Languages to work in include python and c++, but I'd addtionally consider myself competent in java and go.
           <br></br>
-          Around late 2019 - early 2020 I started taking on random jobs online, which mostly included programming bots for social media services like twitter and Instagram
+          Around late 2019 I started taking on small jobs online, and since then it has ballooned into a small side business that I'm  looking to better organize and expand
           <br></br>
-          Since then, that has ballooned into a small side business and I'm looking to better organize and expand that.
+          If you are still interested, check out some of things I've previously made and currently working on.
           <br></br>
 
         </p>
 
-        <p className = "p-custom">
-          I have a main things I'm working towards right now. <br></br>
-          I'll start from the top
-          <li>
-            Operation Freelance - Organize my secondary job works and setup a better structure for my portfolio---------------------------------
-          </li>
-          <li>
-            Overcomplicated Automation - Develop competency in c++ through the process of some fun projects-------------------------------
-          </li>
-          <li>
-            Content Creation/Capitalization - Make explanatory or demonstration videos on open projects or products I sell ---------------------
-          </li>
-        </p>
+
 
         <ul className = 'linefx'>
         <div className = 'proj-grid-container'>
         <li>
         <img className = 'proj-grid-item' src = "https://pm-site-assets-py4.s3.us-east-2.amazonaws.com/products/legacy/black_70_sq1_250.jpg"/>
         </li>
+        <li className = 'container'> 
+        <p className = "centered">Site2.0</p>
         <img className = 'proj-grid-item' src = {Site2Cover}/>
+        </li>
         </div>
         </ul>
         

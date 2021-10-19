@@ -45,6 +45,7 @@
 }
 
 .big-glow {
+  
   font-size: 50px;
   color: rgb(255, 255, 255);
   -webkit-animation: glow 1s ease-in-out infinite alternate;
@@ -63,6 +64,7 @@
 }
 
 .grid-item {
+  font-family: monospace;
   flex: 1;
   background-color: rgb(0, 0, 0);
   border: 5px solid rgb(0, 0, 0);
@@ -144,52 +146,3 @@
   transition: transform 0.5s, opacity 0.5s;
 }
 
-.detail-page.transition-appear {
-  opacity: 0;
-  transform: translate3d(100%, 0, 0);
-}
-
-.detail-page.transition-appear.transition-appear-active {
-  opacity: 1;
-  transform: translate3d(0, 0, 0);
-}
-
-.detail-page.transition-leave {
-  opacity: 1;
-  transform: translate3d(0, 0, 0);
-}
-
-.detail-page.transition-leave.transition-leave-active {
-  opacity: 0;
-  transform: translate3d(100%, 0, 0);
-}
-
-.list-page {
-  overflow: auto;
-  box-sizing: border-box;
-  padding: 20px;
-  height: 100vh;
-  background-color: #fff;
-  transition: transform 0.5s, opacity 0.5s;
-  transform: translate3d(0, 0, 0);
-}
-
-.list-page.transition-appear {
-  opacity: 0;
-  transform: translate3d(-100%, 0, 0);
-}
-
-.list-page.transition-appear.transition-appear-active {
-  opacity: 1;
-  transform: translate3d(0, 0, 0);
-}
-
-.list-page.transition-leave {
-  opacity: 1;
-  transform: translate3d(0, 0, 0);
-}
-
-.list-page.transition-leave.transition-leave-active {
-  opacity: 0;
-  transform: translate3d(-100%, 0, 0);
-}
