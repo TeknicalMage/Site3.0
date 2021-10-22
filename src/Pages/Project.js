@@ -2,11 +2,12 @@ import React, { Component } from "react";
 import * as ReactDOM from "react-dom";
 
 import logo from './logo.svg';
+import sitetitle from './Project-Pics/Site_Title.gif'
 import './App.css';
 import './Project.css'
 
 /*Project Pics*/
-import Site2Cover from "./Project-Pics/Site2.PNG";
+import Site2Cover from "./Project-Pics/Site2jif.gif";
 /*Project Pics*/
 
 class Item extends Component {
@@ -41,7 +42,7 @@ class Item extends Component {
         <img className = 'proj-grid-item' src = "https://pm-site-assets-py4.s3.us-east-2.amazonaws.com/products/legacy/black_70_sq1_250.jpg"/>
         </li>
         <li className = 'container'> 
-        <p className = "centered">Site2.0</p>
+        <img className = 'centered' src = {sitetitle}/>
         <img className = 'proj-grid-item' src = {Site2Cover}/>
         </li>
         </div>

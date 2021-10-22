@@ -128,7 +128,7 @@
 .proj-grid-item:hover {
   background-color: #550f0f;
   border: 5px solid rgb(0, 0, 0);
-  border-color: #550f0f;
+  border-color: #ff0000;
   color: white;
   width: 850px;
   height: 620px;
@@ -148,14 +148,18 @@
   text-align: center;
   color: rgb(255, 255, 255);
   opacity: 1;
+  z-index: 1;
 }
 
 .centered {
+  height: 250px;
   font-family: monospace;
   font-size: 40px;
-  top: 20%;
-  left: 10%;
+  top: 2%;
+  left: 5%;
   position: absolute;
   text-align: center;
   transition: 2.5s ease-in-out;
+  filter: brightness(100%);
+  z-index: -0;
 }
