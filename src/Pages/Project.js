@@ -8,6 +8,7 @@ import './Project.css'
 
 /*Project Pics*/
 import Site2Cover from "./Project-Pics/Site2jif.gif";
+import discord2Cover from "./Project-Pics/Discord_Title.gif";
 /*Project Pics*/
 
 class Item extends Component {
@@ -50,7 +51,8 @@ class Item extends Component {
         
         <ul className = 'linefx'>
         <div className = 'proj-grid-container'>
-        <li>
+        <li className = 'container'>
+        <img className = 'centered-secondary' src = {discord2Cover}/>
         <img className = 'proj-grid-item' src = "https://pm-site-assets-py4.s3.us-east-2.amazonaws.com/products/legacy/black_70_sq1_250.jpg"/>
         </li>
         <img className = 'proj-grid-item' src = "https://pm-site-assets-py4.s3.us-east-2.amazonaws.com/products/legacy/black_70_sq1_250.jpg"/>

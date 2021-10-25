@@ -121,7 +121,7 @@
   color: rgb(0, 0, 0);
   transition: 1.0s ease-in-out;
   list-style-type: none;
-  z-index: 1;
+
   
 }
 
@@ -132,8 +132,7 @@
   color: white;
   width: 850px;
   height: 620px;
-  transition: 1.0s ease-in-out;
-  opacity: 1;
+  transition: 0.80s ease-in-out;
   
 }
 
@@ -148,18 +147,31 @@
   text-align: center;
   color: rgb(255, 255, 255);
   opacity: 1;
-  z-index: 1;
 }
 
 .centered {
-  height: 250px;
+  height: 60px;
+  width: 180px;
   font-family: monospace;
   font-size: 40px;
   top: 2%;
-  left: 5%;
+  left: 0%;
   position: absolute;
   text-align: center;
   transition: 2.5s ease-in-out;
-  filter: brightness(100%);
-  z-index: -0;
+  filter: brightness(1100%);
 }
+
+.centered-secondary {
+  height: 100px;
+  width: 250px;
+  font-family: monospace;
+  font-size: 40px;
+  top: 2%;
+  left: 0%;
+  position: absolute;
+  text-align: center;
+  transition: 2.5s ease-in-out;
+  filter: brightness(111100%);
+}
+
