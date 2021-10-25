@@ -39,23 +39,37 @@ class Item extends Component {
 
         <ul className = 'linefx'>
         <div className = 'proj-grid-container'>
+        <a href="https://github.com/TeknicalMage/Site2.0" target="_blank">
         <li>
         <img className = 'proj-grid-item' src = "https://pm-site-assets-py4.s3.us-east-2.amazonaws.com/products/legacy/black_70_sq1_250.jpg"/>
         </li>
+        </a>
         <li className = 'container'> 
+        
         <img className = 'centered' src = {sitetitle}/>
+        
+        <a href="https://www.youtube.com/channel/UCJX45kFidKwVbLgH25H_USw" target="_blank">
         <img className = 'proj-grid-item' src = {Site2Cover}/>
+        </a>
         </li>
         </div>
         </ul>
         
         <ul className = 'linefx'>
         <div className = 'proj-grid-container'>
+      
+        <a href="https://www.youtube.com/channel/UCJX45kFidKwVbLgH25H_USw" target="_blank">
         <li className = 'container'>
         <img className = 'centered-secondary' src = {discord2Cover}/>
         <img className = 'proj-grid-item' src = "https://pm-site-assets-py4.s3.us-east-2.amazonaws.com/products/legacy/black_70_sq1_250.jpg"/>
         </li>
+        </a>
+
+        <a href="https://www.youtube.com/channel/UCJX45kFidKwVbLgH25H_USw" target="_blank">
+        <li> 
         <img className = 'proj-grid-item' src = "https://pm-site-assets-py4.s3.us-east-2.amazonaws.com/products/legacy/black_70_sq1_250.jpg"/>
+        </li>
+        </a>
         </div>
         </ul>
 
