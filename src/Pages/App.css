@@ -128,15 +128,31 @@
   
 }
 
+@keyframes name-of-animation {
+  0% {
+    transform: rotate(-10deg);
+  }
+  25% {
+    transform: rotate(0deg);
+  }
+ 
+}
+
+
 .grid-item:hover {
   background-color: #550f0f;
-  border: 5px solid #550f0f;
+  border: 25px solid #550f0f;
   color: white;
   width: 250px;
-  transition: 0.5s;
+  animation: name-of-animation 1.7s;
+  
+
+  transition: 0.3s;
+  
 
 
 }
+
 
 /*------------------------------------------------------------------------------------------------------------------------------------ */
 

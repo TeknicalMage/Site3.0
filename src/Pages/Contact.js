@@ -9,7 +9,7 @@ function App() {
       <header className="App-header">
         <img src={mylogo} className="My-logo" alt="logo" />
         <p>
-          Email: t3kn1kalm3g3@gmail.com
+          Email: macro.llc.official@gmail.com
      
         </p>
         <a

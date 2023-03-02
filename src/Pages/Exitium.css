@@ -1,0 +1,82 @@
+* {
+  box-sizing: border-box;
+}
+
+.alt {
+  
+  float: left;
+  display: inline;
+  padding-left: 60px;
+
+}
+
+.texture {
+  margin: 8px;
+  font-size: 20px;
+  width: 20vh;
+  height: 8vh;
+}
+
+p {
+  color: white;
+  
+}
+
+.oslov {
+  font-size: 20px;
+
+  
+}
+
+li {
+  align-items: centers;
+  color: white
+  
+}
+
+.microlist {
+  font-size: 20px;
+  color: white
+  
+}
+
+.texture:hover{
+  background-color: rgb(206, 152, 152);
+}
+
+.spa0cing
+
+.mix {
+  color: black;
+}
+
+.hide {
+  visibility: hidden;
+}
+
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.lebutton {
+  width: 100px;
+ 
+}
+
+.forcenter {
+  
+}
+
+
+.tldrborder {
+  justify-content: center;
+}

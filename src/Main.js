@@ -19,6 +19,7 @@
   import Home from "./Pages/Homepage"
   import Contact from './Pages/Contact';
   import jank from "./Pages/Jank"
+  import Exitium from "./Pages/Exitium"
 
   const firebaseConfig = {
     apiKey: "AIzaSyB89k20LvWqTgmzjb6iJbV0ggN_tbiE4h0",
@@ -66,6 +67,7 @@
               <Route path ="/jank" component ={jank}/>
               <Route path ="/Contact" component ={Contact}/>
               <Route path ="/homepage" component ={Home}/>
+              <Route path ="/exitium" component ={Exitium}/>
               <Route path ="/" component ={Home}/>
             </Switch>
 
