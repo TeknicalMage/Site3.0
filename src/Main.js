@@ -1,4 +1,4 @@
-  import './App.css';
+  import './Pages/App.css';
 
   import Nav from "./Nav";
 
@@ -13,7 +13,7 @@
   import { initializeApp } from "firebase/app";
   import { getAnalytics } from "firebase/analytics";
 
-
+   
   import projects from "./Pages/Project"
   import videos from "./Pages/Video"
   import Home from "./Pages/Homepage"
@@ -22,13 +22,13 @@
   import Exitium from "./Pages/Exitium"
 
   const firebaseConfig = {
-    apiKey: "AIzaSyB89k20LvWqTgmzjb6iJbV0ggN_tbiE4h0",
-    authDomain: "site2-0.firebaseapp.com",
-    projectId: "site2-0",
-    storageBucket: "site2-0.appspot.com",
-    messagingSenderId: "506496275301",
-    appId: "1:506496275301:web:6e65bda5dcdace3da9878c",
-    measurementId: "G-JD6SG9KYX3"
+    apiKey: process.env.REACT_APP_API_KEY,
+    authDomain: process.env.REACT_APP_AUTH_DOMAIN,
+    projectId: process.env.REACT_APP_PROJECT_ID,
+    storageBucket: process.env.REACT_APP_STORAGE_BUCKET,
+    messagingSenderId: process.env.REACT_APP_MESSAGING_SENDER_ID,
+    appId: process.env.REACT_APP_ID,
+    measurementId: process.env.REACT_APP_MEASUREMENT_ID
   };
 
   const app = initializeApp(firebaseConfig);

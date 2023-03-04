@@ -1,14 +1,19 @@
 import logo from './logo.svg';
-import mylogo from './Pics/TeknicalMage_OnHover_Logo.png';
+//import mylogo from './Pics/TeknicalMage_OnHover_Logo.png';
+//<img src={mylogo} className="My-logo" alt="logo" />
 import './App.css';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={mylogo} className="My-logo" alt="logo" />
-        <p>
-          Can't you tell? This is the homepage
+        
+        <br></br>
+        <br></br>
+        <br></br>
+
+        <p className='killme'>
+        Large scale problem solving for small scale communities 
         </p>
         <a
           className="App-link"
@@ -24,3 +29,5 @@ function App() {
 }
 
 export default App;
+
+

@@ -14,7 +14,7 @@ function App() {
         </p>
         <a
           className="App-link"
-          href="https://www.linkedin.com/in/julian-jordan-2804a0b9/"
+          href="https://www.linkedin.com/company/macrollc/?viewAsMember=true&original_referer="
           rel="noopener noreferrer"
         >
           Linkedln
@@ -28,13 +28,7 @@ function App() {
           YouTube
         </a>
 
-        <a
-          className="App-link"
-          href="https://www.fiverr.com/julian_jordan?up_rollout=true"
-          rel="noopener noreferrer"
-        >
-          Fiver
-        </a>
+        
     
         
 

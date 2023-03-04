@@ -1,12 +1,9 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 
-  background-color: black;
+  background-color: rgb(255, 255, 255);
 }
 
 code {
@@ -19,10 +16,8 @@ nav{
   display: flex;
   justify-content: space-around;
   align-items: center;
-
   min-height: 10vh;
-
-  background-color:#000000;
+  background-color:#ffffff;
   list-style: none;
 
 }

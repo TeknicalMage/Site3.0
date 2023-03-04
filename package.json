@@ -9,6 +9,7 @@
     "aws-amplify-react": "^4.1.22",
     "babel-preset-es2015": "^6.24.1",
     "dompurify": "^3.0.0",
+    "env": "^0.0.2",
     "firebase": "^9.1.2",
     "html-to-react": "^1.5.0",
     "react": "^17.0.2",

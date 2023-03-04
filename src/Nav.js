@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import './App.css';
+import './Pages/App.css';
 
 import projects from "./Pages/Project"
 import videos from "./Pages/Video"
@@ -10,29 +10,22 @@ import Exitium from "./Pages/Exitium"
 import mylogo from './/Macro-LLC-Red-Logomark.png';
 
 function Nav() {
-  return (
+  return (  
     <nav>
       <ul className = "grid-container">
         <Link to='/Homepage' className="grid-item"  style={{ textDecoration: 'none' }}>
-          <li className="">
+          <li>
           <img src={mylogo} className="Logo-Home" alt="logo" />
           </li>
         </Link>
         <Link to='/projects' className="grid-item" style={{ textDecoration: 'none' }}>
-          <li className="">Projects</li>
+          <li className="killme">Projects</li>
         </Link>
         <Link to='/videos' className="grid-item"  style={{ textDecoration: 'none' }}>
-        <li className="">Videos</li>
-        </Link>
-        <Link to='/jank' className="grid-item"  style={{ textDecoration: 'none' }}>
-        <li className="">TBD</li>
-        
+        <li className="killme">About Us</li>
         </Link>
         <Link to='/Contact' className="grid-item"  style={{ textDecoration: 'none' }}>
-        <li className="">Contact</li>
-        </Link>
-        <Link to='/Exitium' className="grid-item"  style={{ textDecoration: 'none' }}>
-        <li className="">Exitium</li>
+        <li className="killme">Contact</li>
         </Link>
       </ul>
     </nav>
